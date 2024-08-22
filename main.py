@@ -7,7 +7,7 @@ import musicLibrary
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "9cc0c57bef7b442ea0b119f49bf2ce9c"
+newsapi = ""
 
 def speak(text):
     engine.say(text)
